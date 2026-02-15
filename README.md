@@ -68,6 +68,15 @@ It is a runtime envelope for bounded generation.
 
 ---
 
+## Layer Clarification
+
+Some summaries describe a tri-layer system (training gradients, deployment membrane, governance).  
+Here, switching is treated as a distinct control layer for clarity.
+
+This is a presentation distinction, not an additional architectural tier.
+
+---
+
 ## A Note for Skeptical Readers
 
 BoundedRuntime does not claim empirical superiority, model-level modification, or formal safety guarantees. It is a structured runtime discipline designed to make regulation legible and layered under constraint density. The separation of signals, band, ladder, and regulators is an architectural choice intended to reduce collapse under load—not a claim of new training techniques or internal transformer dynamics. Readers seeking benchmarks, performance claims, or enforcement mechanisms should treat this repository as a composable runtime framework rather than a validated algorithmic intervention.
