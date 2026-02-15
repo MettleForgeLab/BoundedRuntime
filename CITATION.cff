@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "BoundedRuntime"
+version: 1.0.0
+authors:
+  - family-names: "Mettle Forge Lab"
+    given-names: ""
+  - family-names: "Itara"
+    given-names: "Aria"
+  - family-names: ""
+    given-names: "Porter"
+date-released: 2026-02-15
+license: "MIT"
+url: "https://github.com/MettleForgeLab/BoundedRuntime"
+abstract: >
+  BoundedRuntime provides a structured runtime envelope for stabilizing language-model
+  behavior under load by separating signals, coherence band, ladder modes,
+  and runtime regulators.

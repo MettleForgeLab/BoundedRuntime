@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="520" viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Band and ladder integration diagram">
+  <defs>
+    <style><![CDATA[
+      :root { color-scheme: light dark; }
+      .bg { fill: #ffffff; }
+      .ink { fill: #111827; }
+      .muted { fill: #374151; }
+      .stroke { stroke: #111827; stroke-width: 2; }
+      .thin { stroke-width: 1.5; }
+      .dash { stroke-dasharray: 6 6; }
+      .box { fill: #ffffff; stroke: #111827; stroke-width: 2; rx: 14; }
+      .group { fill: #ffffff; stroke: #111827; stroke-width: 2; rx: 18; }
+      .title { font: 700 22px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+      .label { font: 600 16px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+      .small { font: 500 14px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    ]]></style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="960" height="520" class="bg"/>
+
+  <!-- Header -->
+  <text x="480" y="44" text-anchor="middle" class="title ink">Band + Ladder Integration</text>
+  <text x="480" y="72" text-anchor="middle" class="small muted">Band sets envelope width; ladder selects response mode</text>
+
+  <!-- Left group: Bands -->
+  <rect x="60" y="110" width="290" height="340" class="group"/>
+  <text x="205" y="142" text-anchor="middle" class="label ink">Coherence Band</text>
+  <text x="205" y="164" text-anchor="middle" class="small muted">(Envelope Width)</text>
+
+  <!-- Band boxes -->
+  <rect x="95" y="190" width="220" height="66" class="box"/>
+  <text x="205" y="216" text-anchor="middle" class="label ink">Narrowband</text>
+  <text x="205" y="238" text-anchor="middle" class="small muted">contraction</text>
+
+  <rect x="95" y="276" width="220" height="66" class="box"/>
+  <text x="205" y="302" text-anchor="middle" class="label ink">Softfold</text>
+  <text x="205" y="324" text-anchor="middle" class="small muted">steady state</text>
+
+  <rect x="95" y="362" width="220" height="66" class="box"/>
+  <text x="205" y="388" text-anchor="middle" class="label ink">Openband</text>
+  <text x="205" y="410" text-anchor="middle" class="small muted">controlled expansion</text>
+
+  <!-- Middle group: Ladder -->
+  <rect x="370" y="110" width="300" height="340" class="group"/>
+  <text x="520" y="142" text-anchor="middle" class="label ink">Switching Ladder</text>
+  <text x="520" y="164" text-anchor="middle" class="small muted">(Mode Selection)</text>
+
+  <!-- Ladder boxes -->
+  <rect x="405" y="190" width="230" height="48" class="box"/>
+  <text x="520" y="220" text-anchor="middle" class="label ink">Clarify</text>
+
+  <rect x="405" y="246" width="230" height="48" class="box"/>
+  <text x="520" y="276" text-anchor="middle" class="label ink">Frame</text>
+
+  <rect x="405" y="302" width="230" height="48" class="box"/>
+  <text x="520" y="332" text-anchor="middle" class="label ink">Options</text>
+
+  <rect x="405" y="358" width="230" height="48" class="box"/>
+  <text x="520" y="388" text-anchor="middle" class="label ink">Direct</text>
+
+  <!-- Template/Refuse (only shown as narrowband bias, still part of ladder) -->
+  <rect x="405" y="414" width="112" height="36" class="box"/>
+  <text x="461" y="438" text-anchor="middle" class="small ink">Template</text>
+
+  <rect x="523" y="414" width="112" height="36" class="box"/>
+  <text x="579" y="438" text-anchor="middle" class="small ink">Refuse</text>
+
+  <!-- Right group: Output -->
+  <rect x="700" y="195" width="200" height="170" class="group"/>
+  <text x="800" y="230" text-anchor="middle" class="label ink">Response</text>
+  <text x="800" y="254" text-anchor="middle" class="label ink">Output</text>
+  <text x="800" y="290" text-anchor="middle" class="small muted">selected mode</text>
+  <text x="800" y="312" text-anchor="middle" class="small muted">within band width</text>
+
+  <!-- Arrows: Bands to ladder (bias) -->
+  <!-- Narrowband -->
+  <line x1="315" y1="223" x2="405" y2="214" class="stroke thin" marker-end="url(#arrow)"/>
+  <line x1="315" y1="223" x2="405" y2="270" class="stroke thin" marker-end="url(#arrow)"/>
+  <line x1="315" y1="223" x2="405" y2="432" class="stroke thin" marker-end="url(#arrow)"/>
+  <line x1="315" y1="223" x2="523" y2="432" class="stroke thin" marker-end="url(#arrow)"/>
+
+  <!-- Softfold -->
+  <line x1="315" y1="309" x2="405" y2="270" class="stroke thin" marker-end="url(#arrow)"/>
+  <line x1="315" y1="309" x2="405" y2="326" class="stroke thin" marker-end="url(#arrow)"/>
+  <line x1="315" y1="309" x2="405" y2="382" class="stroke thin" marker-end="url(#arrow)"/>
+
+  <!-- Openband -->
+  <line x1="315" y1="395" x2="405" y2="326" class="stroke thin" marker-end="url(#arrow)"/>
+  <line x1="315" y1="395" x2="405" y2="382" class="stroke thin" marker-end="url(#arrow)"/>
+
+  <!-- Arrows: Ladder to output -->
+  <line x1="635" y1="214" x2="700" y2="235" class="stroke thin" marker-end="url(#arrow)"/>
+  <line x1="635" y1="270" x2="700" y2="250" class="stroke thin dash" marker-end="url(#arrow)"/>
+  <line x1="635" y1="326" x2="700" y2="265" class="stroke thin dash" marker-end="url(#arrow)"/>
+  <line x1="635" y1="382" x2="700" y2="280" class="stroke thin dash" marker-end="url(#arrow)"/>
+
+  <!-- Footer note -->
+  <text x="480" y="492" text-anchor="middle" class="small muted">
+    Narrowband biases toward Clarify/Frame/Template/Refuse · Softfold biases toward Frame/Options/Direct · Openband biases toward Options/Direct
+  </text>
+</svg>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="360" viewBox="0 0 960 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Variable to Band to Ladder to Output diagram">
+  <defs>
+    <style><![CDATA[
+      .bg { fill: #ffffff; }
+      .ink { fill: #111827; }
+      .muted { fill: #374151; }
+      .box { fill: #ffffff; stroke: #111827; stroke-width: 2; rx: 14; }
+      .group { fill: #ffffff; stroke: #111827; stroke-width: 2; rx: 18; }
+      .title { font: 700 22px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+      .label { font: 600 16px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+      .small { font: 500 14px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    ]]></style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="360" class="bg"/>
+
+  <text x="480" y="40" text-anchor="middle" class="title ink">Variable → Band → Ladder → Output</text>
+
+  <!-- Variables -->
+  <rect x="40" y="120" width="200" height="120" class="group"/>
+  <text x="140" y="150" text-anchor="middle" class="label ink">Switching</text>
+  <text x="140" y="172" text-anchor="middle" class="label ink">Variables</text>
+  <text x="140" y="200" text-anchor="middle" class="small muted">A · E · H · P · T · B</text>
+
+  <!-- Band -->
+  <rect x="300" y="120" width="200" height="120" class="group"/>
+  <text x="400" y="150" text-anchor="middle" class="label ink">Coherence</text>
+  <text x="400" y="172" text-anchor="middle" class="label ink">Band</text>
+  <text x="400" y="200" text-anchor="middle" class="small muted">Narrow · Softfold · Open</text>
+
+  <!-- Ladder -->
+  <rect x="560" y="120" width="200" height="120" class="group"/>
+  <text x="660" y="150" text-anchor="middle" class="label ink">Switching</text>
+  <text x="660" y="172" text-anchor="middle" class="label ink">Ladder</text>
+  <text x="660" y="200" text-anchor="middle" class="small muted">Clarify → Frame → Options → Direct</text>
+
+  <!-- Output -->
+  <rect x="820" y="120" width="120" height="120" class="group"/>
+  <text x="880" y="160" text-anchor="middle" class="label ink">Response</text>
+  <text x="880" y="182" text-anchor="middle" class="label ink">Output</text>
+
+  <!-- Arrows -->
+  <line x1="240" y1="180" x2="300" y2="180" stroke="#111827" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="500" y1="180" x2="560" y2="180" stroke="#111827" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="760" y1="180" x2="820" y2="180" stroke="#111827" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text x="480" y="310" text-anchor="middle" class="small muted">
+    Variables influence band width → Band biases ladder mode → Ladder determines output structure
+  </text>
+</svg>
