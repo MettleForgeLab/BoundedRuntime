@@ -68,8 +68,8 @@ The ladder remains intact across bands; bandwidth determines how it is traversed
 
 | File                                   | Function                                                    |
 | -------------------------------------- | ----------------------------------------------------------- |
-| `runtime_kbin_generic.txt`             | Core switching behavior and regulator rules                 |
-| `runtime_band_model.txt`               | Coherence envelope logic (Softfold / Narrowband / Openband) |
+| `runtime_kbin_generic.md`             | Core switching behavior and regulator rules                 |
+| `runtime_band_model.md`               | Coherence envelope logic (Softfold / Narrowband / Openband) |
 | `runtime_regulators.md`                | Regulator-to-variable mapping                               |
 | `engineering_note_damped_coherence.md` | Damped-system analogy for stability intuition               |
 | `Stacking Recipe (Example).md`         | Correct layering order for deployment                       |

@@ -38,7 +38,7 @@ See:
 
 - `ARCHITECTURE_OVERVIEW.md`
 - `runtime_regulators.md`
-- `runtime_band_model.txt`
+- `runtime_band_model.md`
 
 ---
 
@@ -46,8 +46,8 @@ See:
 
 Minimal stack:
 
-1. `runtime_kbin_generic.txt`
-2. `runtime_band_model.txt`
+1. `runtime_kbin_generic.md`
+2. `runtime_band_model.md`
 3. (Optional) Adapter
 4. (Optional) Lens overlay
 5. User prompt
