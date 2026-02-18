@@ -13,7 +13,7 @@
 
 ## 1) Core KBIN (paste first)
 
-[PASTE `core/runtime_kbin_generic.txt` HERE]
+[Insert contents of core/runtime_kbin_generic.txt here when stacking.]
 
 ---
 
