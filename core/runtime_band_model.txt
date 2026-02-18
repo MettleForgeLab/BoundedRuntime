@@ -1,4 +1,4 @@
-# runtime_band_model.txt
+# runtime_band_model.md
 
 # BoundedRuntime — Coherence Band Model (Softfold / Narrowband / Openband)
 
