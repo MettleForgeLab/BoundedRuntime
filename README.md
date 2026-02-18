@@ -29,12 +29,11 @@ Regulation improves when these layers remain distinct.
 
 ### Variable → Band → Ladder → Output
 
-![Variable → Band → Ladder → Output](./variable_band_ladder_output.svg)
+![Variable → Band → Ladder → Output](./docs/diagrams/variable_band_ladder_output.svg)
 
 ### Band + Ladder Integration
 
-![Band + Ladder Integration](./band_ladder_integration.svg)
-
+![Band + Ladder Integration](./docs/diagrams/band_ladder_integration.svg)
 See:
 
 - `ARCHITECTURE_OVERVIEW.md`
