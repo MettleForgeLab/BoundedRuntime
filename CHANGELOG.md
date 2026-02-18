@@ -2,8 +2,8 @@
 
 ## 1.0.0 — Initial Stable Release
 
-- Added runtime_kbin_generic.txt
-- Added runtime_band_model.txt (with damping + hysteresis logic)
+- Added runtime_kbin_generic.md
+- Added runtime_band_model.md (with damping + hysteresis logic)
 - Added runtime_regulators.md
 - Added architecture diagrams (SVG)
 - Added stacking recipe example

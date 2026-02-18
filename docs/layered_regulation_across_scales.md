@@ -3,8 +3,8 @@ title: Layered Regulation Across Scales
 status: Informational
 layer: Architectural Context
 related_to:
-  - runtime_band_model.txt
-  - runtime_kbin_generic.txt
+  - runtime_band_model.md
+  - runtime_kbin_generic.md
   - ConditionalBoundedness (Switching Architecture)
 ---
 

@@ -1,4 +1,4 @@
-# runtime_kbin_generic.txt
+# runtime_kbin_generic.md
 
 # BoundedRuntime — Generic KBIN for Runtime Stability (Model-Agnostic)
 

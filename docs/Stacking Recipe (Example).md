@@ -13,7 +13,11 @@
 
 ## 1) Core KBIN (paste first)
 
+<<<<<<< HEAD
 [Insert contents of core/runtime_kbin_generic.txt here when stacking.]
+=======
+[PASTE `core/runtime_kbin_generic.md` HERE]
+>>>>>>> 857de8f (Update remaining .txt references after renames)
 
 ---
 
