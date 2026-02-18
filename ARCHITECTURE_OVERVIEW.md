@@ -36,7 +36,7 @@ Each layer influences the others without collapsing into a single decision point
 
 ### Variable → Band → Ladder → Output
 
-![Variable to Band to Ladder to Output](./variable_band_ladder_output.svg)
+![Variable → Band → Ladder → Output](./docs/diagrams/variable_band_ladder_output.svg)
 
 **Interpretation:**
 
@@ -52,7 +52,7 @@ The ladder structures the response.
 
 ## Band + Ladder Integration
 
-![Band and Ladder Integration](./band_ladder_integration.svg)
+![Band + Ladder Integration](./docs/diagrams/band_ladder_integration.svg)
 
 **Interpretation:**
 
